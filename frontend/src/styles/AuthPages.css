@@ -1,0 +1,168 @@
+/* AuthPages.css - Styling for Login and Register pages */
+
+.auth-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 60px); /* Adjust based on navbar height */
+    background-color: #dae0e6;
+    padding: 20px;
+  }
+  
+  .auth-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+  }
+  
+  .auth-header {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .auth-logo {
+    font-size: 48px;
+    color: #ff4500;
+    margin-bottom: 12px;
+  }
+  
+  .auth-header h1 {
+    font-size: 24px;
+    margin: 12px 0;
+    color: #1c1c1c;
+  }
+  
+  .auth-header p {
+    font-size: 12px;
+    color: #7c7c7c;
+    line-height: 1.5;
+  }
+  
+  .auth-error {
+    background-color: #ffebee;
+    border: 1px solid #ffcdd2;
+    color: #d32f2f;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-size: 14px;
+  }
+  
+  .auth-form {
+    margin-bottom: 16px;
+  }
+  
+  .form-group {
+    margin-bottom: 16px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #1c1c1c;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #edeff1;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .form-group input:focus {
+    border-color: #0079d3;
+    outline: none;
+  }
+  
+  .auth-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0079d3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .auth-button:hover {
+    background-color: #0061a9;
+  }
+  
+  .auth-button:disabled {
+    background-color: #7fbce9;
+    cursor: not-allowed;
+  }
+  
+  .auth-footer {
+    text-align: center;
+    font-size: 14px;
+    color: #7c7c7c;
+  }
+  
+  .auth-footer a {
+    color: #0079d3;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .auth-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Navbar auth button styles */
+  .nav-actions .auth-buttons {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  .login-button, .signup-button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .login-button {
+    background-color: transparent;
+    color: #0079d3;
+    border: 1px solid #0079d3;
+  }
+  
+  .login-button:hover {
+    background-color: rgba(0, 121, 211, 0.1);
+  }
+  
+  .signup-button {
+    background-color: #0079d3;
+    color: white;
+    border: none;
+  }
+  
+  .signup-button:hover {
+    background-color: #0061a9;
+  }
+  
+  /* Success message styling */
+  .auth-success {
+    background-color: #e8f5e9;
+    border: 1px solid #c8e6c9;
+    color: #2e7d32;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-size: 14px;
+  }
